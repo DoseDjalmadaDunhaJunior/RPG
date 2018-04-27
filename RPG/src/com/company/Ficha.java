@@ -1,5 +1,6 @@
 package com.company;
 
+import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
@@ -8,30 +9,33 @@ public class Ficha {
     public Ficha(){
         categoria = null;
         nomeJogador = null;
-        dado = 0;
     }
+
     //para por o nome da classe do jogador(fada, barbaro,mago...)
-    public void classe(){
-        Scanner nome = new Scanner(System.in);
-        categoria = nome.nextLine();
+    public void classe(String nome){
+        categoria = nome;
     }
+
     //simplismente para por o nome do jogador
-    public void nome(){
-        Scanner name = new Scanner(System.in);
-        categoria = name.nextLine();
+    public void nome(String name){
+        categoria = name;
     }
-    //para inserir o valor maximo do dado
-    public void tamanhoDado(){
-        Scanner max = new Scanner(System.in);
-        dado = max.nextInt();
+
+    //cria um vetor dinamico para os atributos, podendo assim ter infinitos atributos
+    public void setVet_tamanho(int tam){
+        Atributo aux[] = new Atributo[tam];
+        atr = aux;
     }
-    //para rodar o dado
-    public int valorDado(){
-        Random bot = new Random();
-        return bot.nextInt(dado);
+
+    //da um tamanho fixo para a quantidade de dados na partida
+    public void setTamnho_emCasa(int quantidade){
+        Dado[] aux = new Dado[quantidade];
+        emCasa = aux;
     }
 
     private String categoria;
+    private Atributo atr[];
+    //sim, isso é uma piada
+    private Dado emCasa[];
     private  String nomeJogador;
-    private int dado;
 }
