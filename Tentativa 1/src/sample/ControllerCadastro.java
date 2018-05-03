@@ -5,7 +5,6 @@ import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
@@ -14,9 +13,11 @@ import java.util.ArrayList;
 
 public class ControllerCadastro {
     Ficha f = new Ficha();
-    ArrayList<Ficha> fichas = new ArrayList<>();
+    public static ArrayList<Ficha> fichas = new ArrayList<>();
 
     @FXML
+
+    ControllerJogadores j = new ControllerJogadores();
 
     public void fecha(){
         Platform.exit();
@@ -25,23 +26,12 @@ public class ControllerCadastro {
 
     public void setQuantidade(int x){
         xDaqui = x;
-        System.out.println("Esse é o X que eu to setando: " + xDaqui);
-        System.out.println("Esse é o X que eu to recebendo: " + x);
+       // System.out.println("Esse é o X que eu to setando: " + xDaqui);
+     //   System.out.println("Esse é o X que eu to recebendo: " + x);
 
     }
 
-    public void getQuantidade(){
-        System.out.println("Esse é o X daqui: " + xDaqui);
-    }
-
-    public void proximo(){
-        if(btnConfirma.getText() == "COMEÇAR"){
-            return;
-        }
-        if(i == xDaqui - 1){
-            btnConfirma.setText("COMEÇAR");
-        }
-
+    public void proximo(ActionEvent event) throws Exception{
         fichas.add(new Ficha((Integer.parseInt(txtMana.getText())), txtNome.getText(), txtClasse.getText(), (Integer.parseInt(txtXP.getText()))));
 
 
@@ -53,6 +43,18 @@ public class ControllerCadastro {
             txtClasse.setText("");
             txtXP.setText("");
         }
+
+        if(btnConfirma.getText() == "COMEÇAR"){
+            AnchorPane pane = FXMLLoader.load(getClass().getResource("jogadores.fxml"));
+            rootPane.getChildren().setAll(pane);
+            //return;
+            j.pegaArray(fichas);
+        }
+        else if(i == xDaqui - 1){
+            btnConfirma.setText("COMEÇAR");
+        }
+
+
 
     }
 
@@ -76,5 +78,7 @@ public class ControllerCadastro {
     public JFXTextField txtNome = new JFXTextField();
     public JFXTextField txtXP = new JFXTextField();
     public JFXTextField txtClasse = new JFXTextField();
+
+    public AnchorPane rootPane;
 
 }

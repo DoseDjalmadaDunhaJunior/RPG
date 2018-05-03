@@ -5,7 +5,6 @@ import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 
@@ -32,8 +31,8 @@ public class ControllerSample {
         else{
             AnchorPane pane = FXMLLoader.load(getClass().getResource("cadastro.fxml"));
             rootPane.getChildren().setAll(pane);
-            getQuantidade();
-            System.out.println("Tô mandando esse X aqui ó: " + getQuantidade());
+          //  getQuantidade();
+          //  System.out.println("Tô mandando esse X aqui ó: " + getQuantidade());
             c.setQuantidade(getQuantidade());
         }
 
