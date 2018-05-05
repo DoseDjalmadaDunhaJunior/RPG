@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerJogadores">
+   <children>
+      <AnchorPane prefHeight="72.0" prefWidth="600.0" style="-fx-background-color: #6B5B95;">
+         <children>
+            <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="545.0" layoutY="18.0" onMouseClicked="#fecha" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/fechar.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="26.0" layoutY="21.0" text="Jogadores" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="paneFicha1" layoutX="14.0" layoutY="83.0" prefHeight="200.0" prefWidth="167.0" style="-fx-background-color: #6B5B95;" visible="false">
+         <children>
+            <Label fx:id="lblNome" layoutX="51.0" layoutY="20.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblClasse" layoutX="50.0" layoutY="56.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblMana" layoutX="50.0" layoutY="91.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label fx:id="lblXP" layoutX="50.0" layoutY="123.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imgNome" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/pessoa-branco.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgClasse" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/espada-branco.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgMana" fitHeight="20.0" fitWidth="20.0" layoutX="14.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/mana-banco.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgXP" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/xp-branco.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <JFXButton fx:id="btnComeçar" layoutX="259.0" layoutY="502.0" mnemonicParsing="false" onAction="#comeca" style="-fx-border-color: #6B5B95;" text="COMEÇAR" textFill="#6b5b95" />
+   </children>
+</AnchorPane>
