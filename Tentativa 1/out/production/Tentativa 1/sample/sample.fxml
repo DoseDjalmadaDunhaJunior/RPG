@@ -30,7 +30,7 @@
          </font>
       </Label>
       <JFXButton fx:id="btnOK" layoutX="259.0" layoutY="369.0" mnemonicParsing="false" onAction="#formCadastra" prefHeight="28.0" prefWidth="83.0" style="-fx-border-color: #6B5B95;" text="OK" textFill="#6b5b95" />
-      <Label fx:id="lblVerifica" layoutX="128.0" layoutY="432.0" text="APENAS ENTRE 2 E 6" textFill="#6b5b95" visible="false">
+      <Label fx:id="lblVerifica" layoutX="234.0" layoutY="432.0" text="APENAS ENTRE 2 E 6" textFill="#6b5b95" visible="false">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>

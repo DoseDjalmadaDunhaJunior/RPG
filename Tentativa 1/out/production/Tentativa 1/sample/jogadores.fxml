@@ -23,7 +23,7 @@
             </Label>
          </children>
       </AnchorPane>
-      <AnchorPane fx:id="paneFicha1" layoutX="14.0" layoutY="83.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #6B5B95;" visible="false">
+      <AnchorPane fx:id="paneFicha1" layoutX="14.0" layoutY="83.0" prefHeight="200.0" prefWidth="167.0" style="-fx-background-color: #6B5B95;" visible="false">
          <children>
             <Label fx:id="lblNome" layoutX="51.0" layoutY="20.0" textFill="WHITE">
                <font>
