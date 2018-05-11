@@ -35,6 +35,12 @@ public class ControllerCadastro {
         System.exit(0);
     }
 
+    public void volta() throws Exception{
+        fichas.removeAll(fichas);
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("sample.fxml"));
+        rootPane.getChildren().setAll(pane);
+    }
+
     // AQui, seto a quantidade de jogadores (quantJogadores) na variável xDaqui
     public void setQuantidade(int x){
         xDaqui = x;

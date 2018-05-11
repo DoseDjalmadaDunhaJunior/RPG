@@ -17,11 +17,16 @@
                   <Image url="@Icons/fechar.png" />
                </image>
             </ImageView>
-            <Label layoutX="26.0" layoutY="21.0" text="Detalhes" textFill="WHITE">
+            <Label layoutX="52.0" layoutY="21.0" text="Detalhes" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="21.0" />
                </font>
             </Label>
+            <ImageView fitHeight="35.0" fitWidth="23.0" layoutX="18.0" layoutY="25.0" onMouseClicked="#volta" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/voltar.png" />
+               </image>
+            </ImageView>
          </children>
       </AnchorPane>
       <Label fx:id="labelJogador" layoutX="243.0" layoutY="118.0" text="1º JOGADOR" textFill="#6b5b95">
@@ -29,7 +34,7 @@
             <Font name="System Bold" size="19.0" />
          </font>
       </Label>
-      <JFXButton fx:id="btnConfirma" layoutX="207.0" layoutY="466.0" mnemonicParsing="false" onAction="#proximo" prefHeight="28.0" prefWidth="83.0" style="-fx-border-color: #6B5B95;" text="OK" textFill="#6b5b95" />
+      <JFXButton fx:id="btnConfirma" layoutX="259.0" layoutY="472.0" mnemonicParsing="false" onAction="#proximo" prefHeight="28.0" prefWidth="83.0" style="-fx-border-color: #6B5B95;" text="OK" textFill="#6b5b95" />
       <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="142.0" layoutY="162.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Icons/mana.png" />
@@ -54,6 +59,13 @@
          </image>
       </ImageView>
       <JFXTextField fx:id="txtXP" focusColor="#6b5b95" layoutX="194.0" layoutY="349.0" prefHeight="28.0" prefWidth="264.0" promptText="XP" unFocusColor="#cccccc" />
-      <JFXButton fx:id="btnMostraTudo" layoutX="310.0" layoutY="466.0" mnemonicParsing="false" onAction="#mostrarTudo" prefHeight="30.0" prefWidth="83.0" style="-fx-border-color: #6b5b95;" text="LISTAR" textFill="#6b5b95" />
+      <JFXButton fx:id="btnMostraTudo" layoutX="487.0" layoutY="466.0" mnemonicParsing="false" onAction="#mostrarTudo" prefHeight="30.0" prefWidth="83.0" style="-fx-border-color: #6b5b95;" text="LISTAR" textFill="#6b5b95" visible="false" />
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="142.0" layoutY="404.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/personalizado.png" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="txtXP1" focusColor="#6b5b95" layoutX="194.0" layoutY="408.0" prefHeight="28.0" prefWidth="200.0" promptText="Atributo personalizado" unFocusColor="#cccccc" />
+      <JFXTextField fx:id="txtXP11" focusColor="#6b5b95" layoutX="407.0" layoutY="408.0" prefHeight="28.0" prefWidth="50.0" promptText="Valor" unFocusColor="#cccccc" />
    </children>
 </AnchorPane>

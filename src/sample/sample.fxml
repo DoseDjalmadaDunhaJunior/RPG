@@ -19,7 +19,7 @@
             </ImageView>
          </children></AnchorPane>
       <JFXTextField fx:id="txtQuant" focusColor="#6b5b95" layoutX="245.0" layoutY="261.0" prefHeight="28.0" prefWidth="178.0" promptText="Entre 2 e 6" unFocusColor="#e1e1e1" />
-      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="177.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="177.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Icons/controle.png" />
          </image>
