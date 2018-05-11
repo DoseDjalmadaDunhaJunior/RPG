@@ -1,41 +1,52 @@
-package com.company;
-
-import java.util.ArrayList;
-import java.util.Random;
-import java.util.Scanner;
+package sample;
 
 public class Ficha {
-    //para garantir que a classe seria iniciada zerada
     public Ficha(){
-        categoria = null;
-        nomeJogador = null;
+
     }
 
-    //para por o nome da classe do jogador(fada, barbaro,mago...)
-    public void classe(String nome){
-        categoria = nome;
+    public Ficha(int mana, String nome, String classe, int XP){
+        this.mana = mana;
+        this.nome = nome;
+        this.classe = classe;
+        this.XP = XP;
     }
 
-    //simplismente para por o nome do jogador
-    public void nome(String name){
-        categoria = name;
+    public String getNome() {
+        return nome;
     }
 
-    //cria um vetor dinamico para os atributos, podendo assim ter infinitos atributos
-    public void setVet_tamanho(int tam){
-        Atributo aux[] = new Atributo[tam];
-        atr = aux;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
-    //da um tamanho fixo para a quantidade de dados na partida
-    public void setTamnho_emCasa(int quantidade){
-        Dado[] aux = new Dado[quantidade];
-        emCasa = aux;
+    public String getClasse() {
+        return classe;
     }
 
-    private String categoria;
-    private Atributo atr[];
-    //sim, isso é uma piada
-    private Dado emCasa[];
-    private  String nomeJogador;
+    public void setClasse(String classe) {
+        this.classe = classe;
+    }
+
+    public int getMana() {
+        return mana;
+    }
+
+    public void setMana(int mana) {
+        this.mana = mana;
+    }
+
+    public int getXP() {
+        return XP;
+    }
+
+    public void setXP(int XP) {
+        this.XP = XP;
+    }
+
+    private String nome;
+    private String classe;
+    private int mana;
+    private int XP;
+
 }
