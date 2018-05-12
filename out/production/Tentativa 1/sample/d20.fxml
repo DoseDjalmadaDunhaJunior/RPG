@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" prefHeight="550.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerD20">
+   <children>
+      <AnchorPane prefHeight="72.0" prefWidth="600.0" style="-fx-background-color: #6B5B95;">
+         <children>
+            <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="545.0" layoutY="18.0" onMouseClicked="#fecha" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/fechar.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="52.0" layoutY="21.0" text="Dado" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="35.0" fitWidth="23.0" layoutX="18.0" layoutY="25.0" onMouseClicked="#volta" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/voltar.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblValor" layoutX="286.0" layoutY="233.0" textFill="#6b5b95">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="193.0" fitWidth="193.0" layoutX="204.0" layoutY="155.0" onMouseClicked="#volta" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/d20.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

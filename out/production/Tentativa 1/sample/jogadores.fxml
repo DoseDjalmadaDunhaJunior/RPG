@@ -286,11 +286,16 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <JFXButton fx:id="btnComecar" layoutX="189.0" layoutY="507.0" mnemonicParsing="false" onAction="#comeca" prefHeight="30.0" prefWidth="101.0" style="-fx-border-color: #6B5B95;" text="COMEÇAR" textFill="#6b5b95" />
-      <JFXButton fx:id="btnDado" layoutX="311.0" layoutY="507.0" mnemonicParsing="false" onAction="#jogaDado" style="-fx-border-color: #6B5B95;" text="JOGAR DADO" textFill="#6b5b95" />
+      <JFXButton fx:id="btnComecar" layoutX="159.0" layoutY="507.0" mnemonicParsing="false" onAction="#comeca" prefHeight="30.0" prefWidth="101.0" style="-fx-border-color: #6B5B95;" text="COMEÇAR" textFill="#6b5b95" />
+      <JFXButton fx:id="btnDado" layoutX="341.0" layoutY="507.0" mnemonicParsing="false" onAction="#jogaDado" style="-fx-border-color: #6B5B95;" text="JOGAR DADO" textFill="#6b5b95" />
       <ImageView fitHeight="35.0" fitWidth="23.0" layoutX="18.0" layoutY="25.0" onMouseClicked="#volta" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Icons/voltar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="283.0" layoutY="505.0" onMouseClicked="#dadoVinte" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/d20.png" />
          </image>
       </ImageView>
    </children>

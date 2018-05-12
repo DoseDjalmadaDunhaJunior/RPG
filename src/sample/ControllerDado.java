@@ -9,8 +9,11 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 
+import java.util.Random;
+
 
 public class ControllerDado {
+
     @FXML
 
     public void fecha(){
@@ -34,6 +37,9 @@ public class ControllerDado {
 
 
     }
+
+
+
 
     public static int qtdDados;
     public JFXTextField txtDado = new JFXTextField();

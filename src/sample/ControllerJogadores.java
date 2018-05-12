@@ -10,6 +10,7 @@ import javafx.scene.layout.AnchorPane;
 
 import javax.swing.text.html.ImageView;
 import java.util.ArrayList;
+import java.util.Random;
 
 // SE VOCÊ ABRIU ESSE AQUIVO PRIMEIRO, LEIA O CONTROLLERSAMPLE E O CONTROLLERCADASTRO PRIMEIRO, NESSA ORDEM, PARA ENTENDER ESSE
 // SE VOCÊ ABRIU ESSE AQUIVO PRIMEIRO, LEIA O CONTROLLERSAMPLE E O CONTROLLERCADASTRO PRIMEIRO, NESSA ORDEM, PARA ENTENDER ESSE
@@ -21,6 +22,7 @@ import java.util.ArrayList;
 
 public class ControllerJogadores {
     Ficha f = new Ficha();
+    ControllerD20 d = new ControllerD20();
     @FXML
 
     public void fecha(){
@@ -97,6 +99,17 @@ public class ControllerJogadores {
         btnComecar.setDisable(true);
 
     }
+
+    public void dadoVinte(ActionEvent event) throws Exception{
+        Random r = new Random();
+
+        aleatorio = (r.nextInt(19) + 1);
+
+
+
+    }
+
+    public static int aleatorio;
 
     public void pegaArray(ArrayList fichasCadastro){
         fichas  = fichasCadastro;
