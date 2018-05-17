@@ -72,11 +72,12 @@ public class ControllerCadastro {
         // *******LEIA A EXPLICAÇÂO DO ELSE IF ABAIXO PRIMEIRO******* Aqui, eu faço a mudança de página caso o botão esteja em "começar", para que o usuário não fique preenchendo espaços vazios no ArrayList
         if(btnConfirma.getText() == "COMEÇAR"){
             // Aqui eu carrego a póxima página
+            j.pegaArray(fichas);
             AnchorPane pane = FXMLLoader.load(getClass().getResource("jogadores.fxml"));
             rootPane.getChildren().setAll(pane);
             //return;
             // Aqui, eu passo o Array de fichas para a página de Jogadores, para que ela seja capaz de ver os usuários cadastrados
-            j.pegaArray(fichas);
+
         }
         // Nessa parte aqui eu troco o texto do botão de OK paa COMEÇAR caso o cadastro tenha chegado no índice correspondente ao último na quantidade de cadastrados
         // Novamente, o -1 pois se trata de um ArrayList

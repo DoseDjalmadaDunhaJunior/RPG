@@ -37,5 +37,10 @@
             <Image url="@Icons/d20.png" />
          </image>
       </ImageView>
+      <Label fx:id="lblResultado" layoutX="190.0" layoutY="411.0" prefHeight="23.0" prefWidth="221.0" textAlignment="CENTER" textFill="#6b5b95">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>

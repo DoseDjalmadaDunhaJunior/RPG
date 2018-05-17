@@ -4,13 +4,15 @@ import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 
-import javax.swing.text.html.ImageView;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Random;
+import java.util.ResourceBundle;
 
 // SE VOCÊ ABRIU ESSE AQUIVO PRIMEIRO, LEIA O CONTROLLERSAMPLE E O CONTROLLERCADASTRO PRIMEIRO, NESSA ORDEM, PARA ENTENDER ESSE
 // SE VOCÊ ABRIU ESSE AQUIVO PRIMEIRO, LEIA O CONTROLLERSAMPLE E O CONTROLLERCADASTRO PRIMEIRO, NESSA ORDEM, PARA ENTENDER ESSE
@@ -20,45 +22,30 @@ import java.util.Random;
 
 // ESSE NÃO TÁ COMENTADO POIS VOCÊS VÃO COMENTAR E ME MANDAR
 
-public class ControllerJogadores {
+public class ControllerJogadores implements Initializable {
     Ficha f = new Ficha();
     ControllerD20 d = new ControllerD20();
     @FXML
 
-    public void fecha(){
-        Platform.exit();
-        System.exit(0);
-    }
 
-    public void volta() throws Exception{
-        fichas.removeAll(fichas);
-        AnchorPane pane = FXMLLoader.load(getClass().getResource("cadastro.fxml"));
-        rootPane.getChildren().setAll(pane);
-    }
+    public void initialize(URL url, ResourceBundle rb) {
+        int i = 0;
 
-    public void jogaDado(ActionEvent event) throws Exception{
-        AnchorPane pane = FXMLLoader.load(getClass().getResource("dado.fxml"));
-        rootPane.getChildren().setAll(pane);
-    }
+        paneFicha1.setVisible(true);
+        lblNomeJogador1.setText(fichas.get(i).getNome());
+        lblClasseJogador1.setText(fichas.get(i).getClasse());
+        lblManaJogador1.setText(Integer.toString(fichas.get(i).getMana()));
+        lblXPJogador1.setText(Integer.toString(fichas.get(i).getXP()));
+        i++;
 
-    public void comeca(ActionEvent event){
-       int i = 0;
-
-       paneFicha1.setVisible(true);
-       lblNomeJogador1.setText(fichas.get(i).getNome());
-       lblClasseJogador1.setText(fichas.get(i).getClasse());
-       lblManaJogador1.setText(Integer.toString(fichas.get(i).getMana()));
-       lblXPJogador1.setText(Integer.toString(fichas.get(i).getXP()));
-       i++;
-
-       if(i < fichas.size()){
-           paneFicha2.setVisible(true);
-           lblNomeJogador2.setText(fichas.get(i).getNome());
-           lblClasseJogador2.setText(fichas.get(i).getClasse());
-           lblManaJogador2.setText(Integer.toString(fichas.get(i).getMana()));
-           lblXPJogador2.setText(Integer.toString(fichas.get(i).getXP()));
-           i++;
-       }
+        if(i < fichas.size()){
+            paneFicha2.setVisible(true);
+            lblNomeJogador2.setText(fichas.get(i).getNome());
+            lblClasseJogador2.setText(fichas.get(i).getClasse());
+            lblManaJogador2.setText(Integer.toString(fichas.get(i).getMana()));
+            lblXPJogador2.setText(Integer.toString(fichas.get(i).getXP()));
+            i++;
+        }
 
         if(i < fichas.size()){
             paneFicha3.setVisible(true);
@@ -95,30 +82,51 @@ public class ControllerJogadores {
             lblXPJogador6.setText(Integer.toString(fichas.get(i).getXP()));
             i++;
         }
-
-        btnComecar.setDisable(true);
-
     }
 
-    public void dadoVinte(ActionEvent event) throws Exception{
+    public void fecha(){
+        Platform.exit();
+        System.exit(0);
+    }
+
+    public void volta() throws Exception{
+        fichas.removeAll(fichas);
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("cadastro.fxml"));
+        rootPane.getChildren().setAll(pane);
+    }
+
+    public void jogaDado(ActionEvent event) throws Exception{
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("dado.fxml"));
+        rootPane.getChildren().setAll(pane);
+    }
+
+    public void dado20() throws Exception{
         Random r = new Random();
 
-        aleatorio = (r.nextInt(19) + 1);
+        aleatorio = r.nextInt(19) + 1;
 
+        d.setaleatorio(aleatorio);
+
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("d20.fxml"));
+        rootPane.getChildren().setAll(pane);
+        System.out.println(aleatorio);
 
 
     }
 
-    public static int aleatorio;
 
     public void pegaArray(ArrayList fichasCadastro){
+
         fichas  = fichasCadastro;
     }
 
     public static ArrayList<Ficha> fichas = new ArrayList<>();
-    public static ArrayList<AnchorPane> panes = new ArrayList<AnchorPane>();
+    public static ArrayList<AnchorPane> panes = new ArrayList<>();
 
     //int fiz = 0;
+
+    public static int aleatorio;
+
 
     public Label lblNomeJogador1 = new Label();
     public Label lblClasseJogador1 = new Label();
