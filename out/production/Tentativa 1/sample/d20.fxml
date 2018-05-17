@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
@@ -37,10 +38,12 @@
             <Image url="@Icons/d20.png" />
          </image>
       </ImageView>
-      <Label fx:id="lblResultado" layoutX="190.0" layoutY="411.0" prefHeight="23.0" prefWidth="221.0" textAlignment="CENTER" textFill="#6b5b95">
+      <Label fx:id="lblResultado" alignment="CENTER" layoutX="190.0" layoutY="411.0" prefHeight="23.0" prefWidth="221.0" textAlignment="CENTER" textFill="#6b5b95">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
+      <JFXButton buttonType="RAISED" layoutX="202.0" layoutY="483.0" mnemonicParsing="false" style="-fx-border-color: #6B5B95;" text="CANCELAR" textFill="#6b5b95" />
+      <JFXButton buttonType="RAISED" layoutX="312.0" layoutY="483.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="86.0" style="-fx-border-color: #6B5B95;" text="REALIZAR" textFill="#6b5b95" />
    </children>
 </AnchorPane>

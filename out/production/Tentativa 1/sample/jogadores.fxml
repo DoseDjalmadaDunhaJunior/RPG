@@ -286,7 +286,7 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <JFXButton fx:id="btnDado" layoutX="292.0" layoutY="503.0" mnemonicParsing="false" onAction="#jogaDado" style="-fx-border-color: #6B5B95;" text="JOGAR DADO" textFill="#6b5b95" />
+      <JFXButton fx:id="btnDado" buttonType="RAISED" layoutX="292.0" layoutY="503.0" mnemonicParsing="false" onAction="#jogaDado" style="-fx-border-color: #6B5B95;" text="JOGAR DADO" textFill="#6b5b95" />
       <ImageView fitHeight="35.0" fitWidth="23.0" layoutX="18.0" layoutY="25.0" onMouseClicked="#volta" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Icons/voltar.png" />
