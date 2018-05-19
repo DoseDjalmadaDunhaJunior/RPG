@@ -1,16 +1,30 @@
 package sample;
 
+import com.jfoenix.controls.JFXComboBox;
+import com.jfoenix.controls.JFXRadioButton;
 import com.jfoenix.controls.JFXTextField;
 import javafx.application.Platform;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
 
-public class ControllerSample {
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.ResourceBundle;
+
+public class ControllerSample{
     // Esse @ é obrigatŕio pra que a classe em .java entenda que ela tá lidando com um arquivo FXML
     @FXML
+
+
+
 
     // Aqui eu to instanciando a classe ControllerCadastro porque vou precisar dela para que ela seja renderizada
     ControllerCadastro c = new ControllerCadastro();
@@ -19,6 +33,7 @@ public class ControllerSample {
     public void fecha(){
         Platform.exit();
         System.exit(0);
+
     }
 
     // Esse é o evento que cadastra a quantidade de pessoas. É uma regra que tenha o ActionEvent quando se é uma função que um botão usa
@@ -87,4 +102,8 @@ public class ControllerSample {
     // Esse aqui é necessário pois sem ele, o comando de troca de tela não sabe onde ele tem que renderizar a nova tela
     public AnchorPane rootPane;
     public JFXTextField txtQuant = new JFXTextField();
+
+    public JFXRadioButton opcoes = new JFXRadioButton();
+
+    public JFXComboBox<String> combo = new JFXComboBox<String>();
 }

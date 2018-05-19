@@ -1,22 +1,50 @@
 package sample;
 
 import com.jfoenix.controls.JFXButton;
+import com.jfoenix.controls.JFXComboBox;
 import com.jfoenix.controls.JFXTextField;
 import javafx.application.Platform;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.AnchorPane;
 
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
+import java.util.ResourceBundle;
 
 
-public class ControllerDado {
+public class ControllerDado implements Initializable {
+
+    ControllerAtaque a = new ControllerAtaque();
 
     @FXML
+
+
+    public void initialize(URL url, ResourceBundle rb) {
+
+        List<String> dados = new ArrayList<String>(6);
+        dados.add("4");
+        dados.add("6");
+        dados.add("8");
+        dados.add("10");
+        dados.add("12");
+        dados.add("20");
+
+        ObservableList<String> jobsOList = FXCollections.observableArrayList(dados);
+
+        combo.setItems(jobsOList);
+
+    }
+
 
     public void fecha(){
         Platform.exit();
@@ -40,31 +68,39 @@ public class ControllerDado {
             imgDado.setDisable(true);
             imgDado.setVisible(false);
 
-            btn4.setDisable(false);
-            btn4.setVisible(true);
-            btn6.setDisable(false);
-            btn6.setVisible(true);
-            btn8.setDisable(false);
-            btn8.setVisible(true);
-            btn10.setDisable(false);
-            btn10.setVisible(true);
-            btn12.setDisable(false);
-            btn12.setVisible(true);
-            btn20.setDisable(false);
-            btn20.setVisible(true);
-
+            combo.setDisable(false);
+            combo.setVisible(true);
+            btnConfirma.setDisable(true);
+            btnConfirma.setVisible(false);
+            btnConfirma2.setDisable(false);
+            btnConfirma2.setVisible(true);
         }
 
 
     }
 
-    public void geraDano(ActionEvent event){
-        System.out.println(event.getSource());
+    public void geraDano(ActionEvent event) throws Exception{
+        Random r = new Random();
+
+        dano = 0;
+        for(int i = 0; i < qtdDados; i++){
+            dado = dado + r.nextInt((Integer.parseInt(combo.getValue())) + 1);
+            System.out.println(dado);
+        }
+
+        dano = dado * qtdDados;
+        System.out.println(dano);
+
+        a.recebeDano(dano);
+
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("ataque.fxml"));
+        rootPane.getChildren().setAll(pane);
     }
 
 
 
-
+    public int dado = 0;
+    public static int dano;
     public static int qtdDados;
     public JFXTextField txtDado = new JFXTextField();
     public Label lblVerifica = new Label();
@@ -78,7 +114,10 @@ public class ControllerDado {
     public JFXButton btn10 = new JFXButton();
     public JFXButton btn12 = new JFXButton();
     public JFXButton btn20 = new JFXButton();
+    public JFXButton btnConfirma = new JFXButton();
+    public JFXButton btnConfirma2 = new JFXButton();
 
+    public JFXComboBox<String> combo = new JFXComboBox<>();
 
     public AnchorPane rootPane;
 }

@@ -29,6 +29,7 @@ public class ControllerCadastro {
     @FXML
 
     ControllerJogadores j = new ControllerJogadores();
+    ControllerAtaque a = new ControllerAtaque();
 
     //A função que fecha
     public void fecha(){
@@ -74,6 +75,7 @@ public class ControllerCadastro {
         if(btnConfirma.getText() == "COMEÇAR"){
             // Aqui eu carrego a póxima página
             j.pegaArray(fichas);
+            a.recebeFicha(fichas, xDaqui);
             AnchorPane pane = FXMLLoader.load(getClass().getResource("jogadores.fxml"));
             rootPane.getChildren().setAll(pane);
             //return;

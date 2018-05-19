@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.jfoenix.controls.JFXButton?>
 <?import com.jfoenix.controls.JFXComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
@@ -7,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="550.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="$CONTROLLER_NAME$">
+<AnchorPane prefHeight="550.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerAtaque">
    <children>
       <AnchorPane prefHeight="72.0" prefWidth="600.0" style="-fx-background-color: #6B5B95;">
          <children>
@@ -28,8 +29,20 @@
             <Image url="@Icons/voltar.png" />
          </image>
       </ImageView>
-      <JFXComboBox focusColor="#6b5b95" layoutX="225.0" layoutY="316.0" prefWidth="150.0" unFocusColor="#a8a8a8" />
-      <Label layoutX="258.0" layoutY="140.0" text="Dano gerado:" />
-      <Label layoutX="236.0" layoutY="257.0" text="Quem deseja atacar?" />
+      <JFXComboBox fx:id="combo" focusColor="#6b5b95" layoutX="225.0" layoutY="316.0" prefWidth="150.0" unFocusColor="#a8a8a8" />
+      <Label layoutX="233.0" layoutY="114.0" text="Dano gerado:" textFill="#6b5b95">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Label>
+      <Label layoutX="196.0" layoutY="261.0" text="Quem deseja atacar?" textFill="#6b5b95">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font></Label>
+      <Label fx:id="lblDano" alignment="CENTER" layoutX="245.0" layoutY="151.0" prefHeight="35.0" prefWidth="111.0" textFill="#6b5b95">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="252.0" layoutY="437.0" mnemonicParsing="false" onAction="#ataca" prefHeight="30.0" prefWidth="96.0" style="-fx-border-color: #6B5B95;" text="ATACAR" textFill="#6b5b95" />
    </children>
 </AnchorPane>
