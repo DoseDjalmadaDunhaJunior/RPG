@@ -1,5 +1,6 @@
 package sample;
 
+import com.jfoenix.controls.JFXProgressBar;
 import com.jfoenix.controls.JFXTextField;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
@@ -107,6 +108,7 @@ public class ControllerCadastro {
     // Contador que uso para passar pela quantidade de jogadores
     public int i = 0;
 
+
     // Instanciando os objetos aqui
     public Label labelJogador = new Label();
     public Button btnConfirma = new Button();
@@ -114,6 +116,7 @@ public class ControllerCadastro {
     public JFXTextField txtNome = new JFXTextField();
     public JFXTextField txtXP = new JFXTextField();
     public JFXTextField txtClasse = new JFXTextField();
+
 
     // Isso aqui é necessário porque sem ele não consigo renderizar a outra tela
     public AnchorPane rootPane;

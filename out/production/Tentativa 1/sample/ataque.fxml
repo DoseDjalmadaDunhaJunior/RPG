@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="$CONTROLLER_NAME$">
+   <children>
+      <AnchorPane prefHeight="72.0" prefWidth="600.0" style="-fx-background-color: #6B5B95;">
+         <children>
+            <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="545.0" layoutY="18.0" onMouseClicked="#fecha" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/fechar.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="52.0" layoutY="21.0" text="Ataque" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="35.0" fitWidth="23.0" layoutX="18.0" layoutY="25.0" onMouseClicked="#volta" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icons/voltar.png" />
+         </image>
+      </ImageView>
+      <JFXComboBox focusColor="#6b5b95" layoutX="225.0" layoutY="316.0" prefWidth="150.0" unFocusColor="#a8a8a8" />
+      <Label layoutX="258.0" layoutY="140.0" text="Dano gerado:" />
+      <Label layoutX="236.0" layoutY="257.0" text="Quem deseja atacar?" />
+   </children>
+</AnchorPane>

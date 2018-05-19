@@ -33,7 +33,7 @@
             <Font name="System Bold" size="25.0" />
          </font>
       </Label>
-      <ImageView fitHeight="193.0" fitWidth="193.0" layoutX="204.0" layoutY="155.0" onMouseClicked="#volta" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="193.0" fitWidth="193.0" layoutX="204.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Icons/d20.png" />
          </image>
@@ -43,7 +43,7 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <JFXButton buttonType="RAISED" layoutX="202.0" layoutY="483.0" mnemonicParsing="false" style="-fx-border-color: #6B5B95;" text="CANCELAR" textFill="#6b5b95" />
-      <JFXButton buttonType="RAISED" layoutX="312.0" layoutY="483.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="86.0" style="-fx-border-color: #6B5B95;" text="REALIZAR" textFill="#6b5b95" />
+      <JFXButton buttonType="RAISED" layoutX="202.0" layoutY="483.0" mnemonicParsing="false" onAction="#cancela" style="-fx-border-color: #6B5B95;" text="CANCELAR" textFill="#6b5b95" />
+      <JFXButton buttonType="RAISED" layoutX="312.0" layoutY="483.0" mnemonicParsing="false" onAction="#realizar" prefHeight="30.0" prefWidth="86.0" style="-fx-border-color: #6B5B95;" text="REALIZAR" textFill="#6b5b95" />
    </children>
 </AnchorPane>

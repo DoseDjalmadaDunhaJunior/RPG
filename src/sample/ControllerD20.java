@@ -1,13 +1,12 @@
 package sample;
 
 import javafx.application.Platform;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.layout.AnchorPane;
-
-import java.awt.*;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -65,6 +64,16 @@ public class ControllerD20 implements Initializable {
     public void setaleatorio(int x){
 
         valor = x;
+    }
+
+    public void cancela(ActionEvent event) throws Exception{
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("jogadores.fxml"));
+        rootPane.getChildren().setAll(pane);
+    }
+
+    public void realizar(ActionEvent event) throws Exception{
+        AnchorPane pane = FXMLLoader.load(getClass().getResource("dado.fxml"));
+        rootPane.getChildren().setAll(pane);
     }
 
 
