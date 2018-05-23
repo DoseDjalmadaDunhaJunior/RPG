@@ -22,13 +22,13 @@ import java.util.ResourceBundle;
 
 // ESSE NÃO TÁ COMENTADO POIS VOCÊS VÃO COMENTAR E ME MANDAR
 
-public class ControllerJogadores implements Initializable {
+public class ControllerJogadores implements Initializable {//isto aqui e pra entender para sempre que quizer inacializar algo
     Ficha f = new Ficha();
     ControllerD20 d = new ControllerD20();
     @FXML
 
 
-    public void initialize(URL url, ResourceBundle rb) {
+    public void initialize(URL url, ResourceBundle rb) { //initialize inicia a tela assim q abre, precsa sempre destes argumentos
         int i = 0;
 
         paneFicha1.setVisible(true);
@@ -95,7 +95,7 @@ public class ControllerJogadores implements Initializable {
         rootPane.getChildren().setAll(pane);
     }
 
-    public void jogaDado(ActionEvent event) throws Exception{
+    public void jogaDado(ActionEvent event) throws Exception{ //função para carregar outra tela
         AnchorPane pane = FXMLLoader.load(getClass().getResource("dado.fxml"));
         rootPane.getChildren().setAll(pane);
     }
@@ -113,6 +113,7 @@ public class ControllerJogadores implements Initializable {
 
 
     }
+
 
 
     public void pegaArray(ArrayList fichasCadastro){
