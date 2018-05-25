@@ -16,7 +16,7 @@
                   <Image url="@Icons/fechar.png" />
                </image>
             </ImageView>
-            <Label layoutX="52.0" layoutY="21.0" text="Jogadores" textFill="WHITE">
+            <Label layoutX="20.0" layoutY="21.0" text="Jogadores" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="21.0" />
                </font>
@@ -25,263 +25,323 @@
       </AnchorPane>
       <AnchorPane fx:id="paneFicha1" layoutX="14.0" layoutY="83.0" prefHeight="200.0" prefWidth="167.0" style="-fx-background-color: #6B5B95;">
          <children>
-            <Label fx:id="lblNomeJogador1" layoutX="51.0" layoutY="20.0" textFill="WHITE">
+            <Label fx:id="lblNomeJogador1" layoutX="51.0" layoutY="86.0" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="lblClasseJogador1" layoutX="50.0" layoutY="56.0" textFill="WHITE">
+            <Label fx:id="lblClasseJogador1" layoutX="50.0" layoutY="112.0" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="lblManaJogador1" layoutX="50.0" layoutY="91.0" textFill="WHITE">
+            <Label fx:id="lblManaJogador1" layoutX="61.0" layoutY="55.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="lblXPJogador1" layoutX="50.0" layoutY="123.0" textFill="WHITE">
+            <Label fx:id="lblXPJogador1" layoutX="50.0" layoutY="137.0" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <ImageView fx:id="imgNome1" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+            <Label fx:id="lblIntJogador1" layoutX="50.0" layoutY="163.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imgNome1" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@Icons/pessoa-branco.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgClasse1" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgClasse1" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@Icons/espada-branco.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgMana1" fitHeight="20.0" fitWidth="20.0" layoutX="14.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgMana1" fitHeight="20.0" fitWidth="20.0" layoutX="75.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" scaleX="1.9" scaleY="1.9" AnchorPane.topAnchor="20.0">
                <image>
                   <Image url="@Icons/mana-banco.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgXP1" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgXP1" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Icons/xp-branco.png" />
+                  <Image url="@Icons/forca-branco.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgXP12" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/Inteliencia-branco.png" />
                </image>
             </ImageView>
          </children></AnchorPane>
       <AnchorPane fx:id="paneFicha2" layoutX="217.0" layoutY="83.0" prefHeight="200.0" prefWidth="167.0" style="-fx-background-color: #6B5B95;" visible="false">
          <children>
-            <Label fx:id="lblNomeJogador2" layoutX="51.0" layoutY="20.0" textFill="WHITE">
+            <Label fx:id="lblNomeJogador2" layoutX="51.0" layoutY="86.0" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="lblClasseJogador2" layoutX="50.0" layoutY="56.0" textFill="WHITE">
+            <Label fx:id="lblClasseJogador2" layoutX="50.0" layoutY="112.0" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="lblManaJogador2" layoutX="50.0" layoutY="91.0" textFill="WHITE">
+            <Label fx:id="lblManaJogador2" layoutX="61.0" layoutY="55.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="lblXPJogador2" layoutX="50.0" layoutY="123.0" textFill="WHITE">
+            <Label fx:id="lblXPJogador2" layoutX="50.0" layoutY="137.0" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <ImageView fx:id="imgNome2" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+            <Label fx:id="lblIntJogador2" layoutX="50.0" layoutY="163.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imgNome12" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@Icons/pessoa-branco.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgClasse2" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgClasse12" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@Icons/espada-branco.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgMana2" fitHeight="20.0" fitWidth="20.0" layoutX="14.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgMana12" fitHeight="20.0" fitWidth="20.0" layoutX="75.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" scaleX="1.9" scaleY="1.9" AnchorPane.topAnchor="20.0">
                <image>
                   <Image url="@Icons/mana-banco.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgXP2" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgXP12" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Icons/xp-branco.png" />
+                  <Image url="@Icons/forca-branco.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgXP121" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/Inteliencia-branco.png" />
                </image>
             </ImageView>
          </children>
       </AnchorPane>
       <AnchorPane fx:id="paneFicha3" layoutX="419.0" layoutY="83.0" prefHeight="200.0" prefWidth="167.0" style="-fx-background-color: #6B5B95;" visible="false">
          <children>
-            <Label fx:id="lblNomeJogador3" layoutX="51.0" layoutY="20.0" textFill="WHITE">
+            <Label fx:id="lblNomeJogador3" layoutX="51.0" layoutY="86.0" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="lblClasseJogador3" layoutX="50.0" layoutY="56.0" textFill="WHITE">
+            <Label fx:id="lblClasseJogador3" layoutX="50.0" layoutY="112.0" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="lblManaJogador3" layoutX="50.0" layoutY="91.0" textFill="WHITE">
+            <Label fx:id="lblManaJogador3" layoutX="61.0" layoutY="55.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="lblXPJogador3" layoutX="50.0" layoutY="123.0" textFill="WHITE">
+            <Label fx:id="lblXPJogador3" layoutX="50.0" layoutY="137.0" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <ImageView fx:id="imgNome11" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+            <Label fx:id="lblIntJogador3" layoutX="50.0" layoutY="163.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imgNome121" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@Icons/pessoa-branco.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgClasse11" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgClasse121" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@Icons/espada-branco.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgMana11" fitHeight="20.0" fitWidth="20.0" layoutX="14.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgMana121" fitHeight="20.0" fitWidth="20.0" layoutX="75.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" scaleX="1.9" scaleY="1.9" AnchorPane.topAnchor="20.0">
                <image>
                   <Image url="@Icons/mana-banco.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgXP11" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgXP121" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Icons/xp-branco.png" />
+                  <Image url="@Icons/forca-branco.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgXP1211" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/Inteliencia-branco.png" />
                </image>
             </ImageView>
          </children>
       </AnchorPane>
       <AnchorPane fx:id="paneFicha4" layoutX="14.0" layoutY="295.0" prefHeight="200.0" prefWidth="167.0" style="-fx-background-color: #6B5B95;" visible="false">
          <children>
-            <Label fx:id="lblNomeJogador4" layoutX="51.0" layoutY="20.0" textFill="WHITE">
+            <Label fx:id="lblNomeJogador4" layoutX="51.0" layoutY="86.0" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="lblClasseJogador4" layoutX="50.0" layoutY="56.0" textFill="WHITE">
+            <Label fx:id="lblClasseJogador4" layoutX="50.0" layoutY="112.0" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="lblManaJogador4" layoutX="50.0" layoutY="91.0" textFill="WHITE">
+            <Label fx:id="lblManaJogador4" layoutX="61.0" layoutY="55.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="lblXPJogador4" layoutX="50.0" layoutY="123.0" textFill="WHITE">
+            <Label fx:id="lblXPJogador4" layoutX="50.0" layoutY="137.0" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <ImageView fx:id="imgNome2" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+            <Label fx:id="lblIntJogador4" layoutX="50.0" layoutY="163.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imgNome1211" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@Icons/pessoa-branco.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgClasse2" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgClasse1211" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@Icons/espada-branco.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgMana2" fitHeight="20.0" fitWidth="20.0" layoutX="14.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgMana1211" fitHeight="20.0" fitWidth="20.0" layoutX="75.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" scaleX="1.9" scaleY="1.9" AnchorPane.topAnchor="20.0">
                <image>
                   <Image url="@Icons/mana-banco.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgXP2" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgXP1211" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Icons/xp-branco.png" />
+                  <Image url="@Icons/forca-branco.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgXP12111" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/Inteliencia-branco.png" />
                </image>
             </ImageView>
          </children>
       </AnchorPane>
       <AnchorPane fx:id="paneFicha5" layoutX="217.0" layoutY="295.0" prefHeight="200.0" prefWidth="167.0" style="-fx-background-color: #6B5B95;" visible="false">
          <children>
-            <Label fx:id="lblNomeJogador5" layoutX="51.0" layoutY="20.0" textFill="WHITE">
+            <Label fx:id="lblNomeJogador5" layoutX="51.0" layoutY="86.0" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="lblClasseJogador5" layoutX="50.0" layoutY="56.0" textFill="WHITE">
+            <Label fx:id="lblClasseJogador5" layoutX="50.0" layoutY="112.0" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="lblManaJogador5" layoutX="50.0" layoutY="91.0" textFill="WHITE">
+            <Label fx:id="lblManaJogador5" layoutX="61.0" layoutY="55.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="lblXPJogador5" layoutX="50.0" layoutY="123.0" textFill="WHITE">
+            <Label fx:id="lblXPJogador5" layoutX="50.0" layoutY="137.0" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <ImageView fx:id="imgNome21" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+            <Label fx:id="lblIntJogador5" layoutX="50.0" layoutY="163.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imgNome12111" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@Icons/pessoa-branco.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgClasse21" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgClasse12111" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@Icons/espada-branco.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgMana21" fitHeight="20.0" fitWidth="20.0" layoutX="14.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgMana12111" fitHeight="20.0" fitWidth="20.0" layoutX="75.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" scaleX="1.9" scaleY="1.9" AnchorPane.topAnchor="20.0">
                <image>
                   <Image url="@Icons/mana-banco.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgXP21" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgXP12111" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Icons/xp-branco.png" />
+                  <Image url="@Icons/forca-branco.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgXP121111" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/Inteliencia-branco.png" />
                </image>
             </ImageView>
          </children>
       </AnchorPane>
       <AnchorPane fx:id="paneFicha6" layoutX="419.0" layoutY="295.0" prefHeight="200.0" prefWidth="167.0" style="-fx-background-color: #6B5B95;" visible="false">
          <children>
-            <Label fx:id="lblNomeJogador6" layoutX="51.0" layoutY="20.0" textFill="WHITE">
+            <Label fx:id="lblNomeJogador6" layoutX="51.0" layoutY="86.0" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="lblClasseJogador6" layoutX="50.0" layoutY="56.0" textFill="WHITE">
+            <Label fx:id="lblClasseJogador6" layoutX="50.0" layoutY="112.0" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="lblManaJogador6" layoutX="50.0" layoutY="91.0" textFill="WHITE">
+            <Label fx:id="lblManaJogador6" layoutX="61.0" layoutY="55.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <Label fx:id="lblXPJogador6" layoutX="50.0" layoutY="123.0" textFill="WHITE">
+            <Label fx:id="lblXPJogador6" layoutX="50.0" layoutY="137.0" textFill="WHITE">
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
-            <ImageView fx:id="imgNome211" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true">
+            <Label fx:id="lblIntJogador6" layoutX="50.0" layoutY="163.0" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="imgNome121111" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@Icons/pessoa-branco.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgClasse211" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgClasse121111" fitHeight="20.0" fitWidth="20.0" layoutX="17.0" layoutY="109.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@Icons/espada-branco.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgMana211" fitHeight="20.0" fitWidth="20.0" layoutX="14.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgMana121111" fitHeight="20.0" fitWidth="20.0" layoutX="75.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" scaleX="1.9" scaleY="1.9" AnchorPane.topAnchor="20.0">
                <image>
                   <Image url="@Icons/mana-banco.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="imgXP211" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="imgXP121111" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@Icons/xp-branco.png" />
+                  <Image url="@Icons/forca-branco.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imgXP1211111" fitHeight="20.0" fitWidth="20.0" layoutX="16.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Icons/Inteliencia-branco.png" />
                </image>
             </ImageView>
          </children>

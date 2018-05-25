@@ -31,33 +31,22 @@ public class ControllerD20 implements Initializable {
             lblValor.setText(Integer.toString(valor));
         }
 
-        if(valor >= 1 && valor <= 3){
-            lblResultado.setText("ERRO CRÍTICO");
+        if(valor >= 1 && valor <= 2){
+            lblResultado.setText("FALHA CRÍTICA");
         }
 
-        if(valor > 3 && valor <= 7){
-            lblResultado.setText("ERRO");
+        if(valor > 3 && valor <= 10){
+            lblResultado.setText("FALHOU");
         }
 
-        if(valor > 7 && valor <= 10){
-            lblResultado.setText("RAZOÁVEL");
+        if(valor > 11 && valor <= 18){
+            lblResultado.setText("ACERTOU");
         }
 
-        if(valor > 10 && valor <= 13){
-            lblResultado.setText("ACERTO");
-        }
-
-        if(valor > 13 && valor <= 16){
-            lblResultado.setText("ACERTO MÉDIO");
-        }
-
-        if(valor > 16 && valor <= 19){
+        if(valor > 19 && valor <= 20){
             lblResultado.setText("ACERTO CRÍTICO");
         }
 
-        if(valor == 20){
-            lblResultado.setText("PERFEITO");
-        }
 
     }
 
