@@ -1,5 +1,3 @@
-package com.company;
-
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
@@ -9,6 +7,21 @@ public class Ficha {
     public Ficha(){
         categoria = null;
         nomeJogador = null;
+    }
+    
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
+
+    public String getCategoria() {
+        return categoria;
+    }
+    public void setnomeJogador(int nomeJogador) {
+        this.nomeJogador=nomeJogador;
+    }
+
+    public int getMaxhp() {
+        return maxhp;
     }
 
     //para por o nome da classe do jogador(fada, barbaro,mago...)
