@@ -54,7 +54,7 @@ public class ControllerCadastro {
     // Essa é a função que faz o cadastro de jogadores, lembrando, sempre com o ActionEvent e o throws Exception pois esse também renderiza outro
     public void proximo(ActionEvent event) throws Exception{
         // Toda vez que entro nessa função, chamada pelo botão OK na tela de cadastro, preencho mais um espaço no ArrayList de fichas, pegando os valores das caixas de texto
-        fichas.add(new Ficha((Integer.parseInt(txtMana.getText())), txtNome.getText(), txtClasse.getText(), (Integer.parseInt(txtXP.getText()))));
+        fichas.add(new Ficha((Integer.parseInt(txtMana.getText())), txtNome.getText(), txtClasse.getText(), (Integer.parseInt(txtXP.getText())),(Integer.parseInt(txtIntl.getText()))));
 
         // Essa é uma verificação pra confirmar que eu não cheguei no número máximo de pessoas cadastradas
         // -1 pois o usuário entra com um número X porém o ArrayList começa em 0, logo, diminuo um no final
@@ -69,6 +69,7 @@ public class ControllerCadastro {
             txtNome.setText("");
             txtClasse.setText("");
             txtXP.setText("");
+            txtIntl.setText("");
         }
 
         // *******LEIA A EXPLICAÇÂO DO ELSE IF ABAIXO PRIMEIRO******* Aqui, eu faço a mudança de página caso o botão esteja em "começar", para que o usuário não fique preenchendo espaços vazios no ArrayList
@@ -118,6 +119,7 @@ public class ControllerCadastro {
     public JFXTextField txtNome = new JFXTextField();
     public JFXTextField txtXP = new JFXTextField();
     public JFXTextField txtClasse = new JFXTextField();
+    public JFXTextField txtIntl = new JFXTextField();
 
 
     // Isso aqui é necessário porque sem ele não consigo renderizar a outra tela

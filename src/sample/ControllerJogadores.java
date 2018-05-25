@@ -22,13 +22,13 @@ import java.util.ResourceBundle;
 
 // ESSE NÃO TÁ COMENTADO POIS VOCÊS VÃO COMENTAR E ME MANDAR
 
-public class ControllerJogadores implements Initializable {
+public class ControllerJogadores implements Initializable {//isto aqui e pra entender para sempre que quizer inacializar algo
     Ficha f = new Ficha();
     ControllerD20 d = new ControllerD20();
     @FXML
 
 
-    public void initialize(URL url, ResourceBundle rb) {
+    public void initialize(URL url, ResourceBundle rb) { //initialize inicia a tela assim q abre, precsa sempre destes argumentos
         int i = 0;
 
         paneFicha1.setVisible(true);
@@ -36,6 +36,7 @@ public class ControllerJogadores implements Initializable {
         lblClasseJogador1.setText(fichas.get(i).getClasse());
         lblManaJogador1.setText(Integer.toString(fichas.get(i).getMana()));
         lblXPJogador1.setText(Integer.toString(fichas.get(i).getXP()));
+        lblIntJogador1.setText(Integer.toString(fichas.get(i).getInt()));
         i++;
 
         if(i < fichas.size()){
@@ -44,6 +45,7 @@ public class ControllerJogadores implements Initializable {
             lblClasseJogador2.setText(fichas.get(i).getClasse());
             lblManaJogador2.setText(Integer.toString(fichas.get(i).getMana()));
             lblXPJogador2.setText(Integer.toString(fichas.get(i).getXP()));
+            lblIntJogador2.setText(Integer.toString(fichas.get(i).getInt()));
             i++;
         }
 
@@ -53,6 +55,7 @@ public class ControllerJogadores implements Initializable {
             lblClasseJogador3.setText(fichas.get(i).getClasse());
             lblManaJogador3.setText(Integer.toString(fichas.get(i).getMana()));
             lblXPJogador3.setText(Integer.toString(fichas.get(i).getXP()));
+            lblIntJogador3.setText(Integer.toString(fichas.get(i).getInt()));
             i++;
         }
 
@@ -62,6 +65,7 @@ public class ControllerJogadores implements Initializable {
             lblClasseJogador4.setText(fichas.get(i).getClasse());
             lblManaJogador4.setText(Integer.toString(fichas.get(i).getMana()));
             lblXPJogador4.setText(Integer.toString(fichas.get(i).getXP()));
+            lblIntJogador4.setText(Integer.toString(fichas.get(i).getInt()));
             i++;
         }
 
@@ -71,6 +75,7 @@ public class ControllerJogadores implements Initializable {
             lblClasseJogador5.setText(fichas.get(i).getClasse());
             lblManaJogador5.setText(Integer.toString(fichas.get(i).getMana()));
             lblXPJogador5.setText(Integer.toString(fichas.get(i).getXP()));
+            lblIntJogador5.setText(Integer.toString(fichas.get(i).getInt()));
             i++;
         }
 
@@ -80,6 +85,7 @@ public class ControllerJogadores implements Initializable {
             lblClasseJogador6.setText(fichas.get(i).getClasse());
             lblManaJogador6.setText(Integer.toString(fichas.get(i).getMana()));
             lblXPJogador6.setText(Integer.toString(fichas.get(i).getXP()));
+            lblIntJogador6.setText(Integer.toString(fichas.get(i).getInt()));
             i++;
         }
     }
@@ -95,7 +101,7 @@ public class ControllerJogadores implements Initializable {
         rootPane.getChildren().setAll(pane);
     }
 
-    public void jogaDado(ActionEvent event) throws Exception{
+    public void jogaDado(ActionEvent event) throws Exception{ //função para carregar outra tela
         AnchorPane pane = FXMLLoader.load(getClass().getResource("dado.fxml"));
         rootPane.getChildren().setAll(pane);
     }
@@ -115,6 +121,7 @@ public class ControllerJogadores implements Initializable {
     }
 
 
+
     public void pegaArray(ArrayList fichasCadastro){
 
         fichas  = fichasCadastro;
@@ -132,31 +139,37 @@ public class ControllerJogadores implements Initializable {
     public Label lblClasseJogador1 = new Label();
     public Label lblManaJogador1 = new Label();
     public Label lblXPJogador1 = new Label();
+    public Label lblIntJogador1 = new Label();
 
     public Label lblNomeJogador2 = new Label();
     public Label lblClasseJogador2 = new Label();
     public Label lblManaJogador2 = new Label();
     public Label lblXPJogador2 = new Label();
+    public Label lblIntJogador2 = new Label();
 
     public Label lblNomeJogador3 = new Label();
     public Label lblClasseJogador3 = new Label();
     public Label lblManaJogador3 = new Label();
     public Label lblXPJogador3 = new Label();
+    public Label lblIntJogador3 = new Label();
 
     public Label lblNomeJogador4 = new Label();
     public Label lblClasseJogador4 = new Label();
     public Label lblManaJogador4 = new Label();
     public Label lblXPJogador4 = new Label();
+    public Label lblIntJogador4 = new Label();
 
     public Label lblNomeJogador5 = new Label();
     public Label lblClasseJogador5 = new Label();
     public Label lblManaJogador5 = new Label();
     public Label lblXPJogador5 = new Label();
+    public Label lblIntJogador5 = new Label();
 
     public Label lblNomeJogador6 = new Label();
     public Label lblClasseJogador6 = new Label();
     public Label lblManaJogador6 = new Label();
     public Label lblXPJogador6 = new Label();
+    public Label lblIntJogador6 = new Label();
 
     public AnchorPane paneFicha1 = new AnchorPane();
     public AnchorPane paneFicha2 = new AnchorPane();

@@ -5,11 +5,12 @@ public class Ficha {
 
     }
 
-    public Ficha(int mana, String nome, String classe, int XP){
+    public Ficha(int mana, String nome, String classe, int XP,int Int){
         this.mana = mana;
         this.nome = nome;
         this.classe = classe;
         this.XP = XP;
+        this.Int = Int;
     }
 
     public String getNome() {
@@ -44,9 +45,18 @@ public class Ficha {
         this.XP = XP;
     }
 
+    public void setInt(int Int) {
+        this.Int = Int;
+    }
+
+    public int getInt() {
+        return Int;
+    }
+
     private String nome;
     private String classe;
     private int mana;
     private int XP;
+    private int Int;
 
 }

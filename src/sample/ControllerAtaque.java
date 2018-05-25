@@ -59,9 +59,16 @@ public class ControllerAtaque implements Initializable{
 
         for(int i = 0; i < jogadores; i++){
             if(fichas.get(i).getNome() == jogador){
-                fichas.get(i).setXP((fichas.get(i).getXP() - dano));
+                fichas.get(i).setMana((fichas.get(i).getMana() - dano));
             }
         }
+
+        for(int i = 0; i < jogadores; i++){
+            System.out.println(fichas.get(i).getNome());
+            System.out.println(fichas.get(i).getMana());
+        }
+
+
 
         j.pegaArray(fichas);
         AnchorPane pane = FXMLLoader.load(getClass().getResource("jogadores.fxml"));
