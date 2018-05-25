@@ -24,7 +24,7 @@ public class ControllerAtaque implements Initializable{
     public void initialize(URL url, ResourceBundle rb) {
         List<String> dados = new ArrayList<String>(jogadores-1);
         for(int i = 0; i < (jogadores); i ++){
-            dados.add(fichas.get(i).getNome());
+            if(fichas.get(i).getMorto() == false)dados.add(fichas.get(i).getNome());
             System.out.println(fichas.get(i).getNome());
         }
 
@@ -60,6 +60,7 @@ public class ControllerAtaque implements Initializable{
         for(int i = 0; i < jogadores; i++){
             if(fichas.get(i).getNome() == jogador){
                 fichas.get(i).setMana((fichas.get(i).getMana() - dano));
+                if(fichas.get(i).getMana()<=0) fichas.get(i).setMorto(true);
             }
         }
 
