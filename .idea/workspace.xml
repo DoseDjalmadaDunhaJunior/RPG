@@ -1,27 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb3aec55-5637-4aca-adc8-24f61d32c3df" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ant.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/JavaFXApp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/ControllerAtaque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ControllerAtaque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/ControllerCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ControllerCadastro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/ControllerD20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ControllerD20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/ControllerJogadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ControllerJogadores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Ficha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Ficha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/ataque.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ataque.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/cadastro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/cadastro.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/jogadores.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/jogadores.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="eb3aec55-5637-4aca-adc8-24f61d32c3df" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -117,7 +97,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="143" />
     <option name="y" value="62" />
     <option name="width" value="1191" />
@@ -241,15 +221,15 @@
       <updated>1527264651038</updated>
       <workItem from="1527264653855" duration="4098000" />
       <workItem from="1527271046682" duration="805000" />
-      <workItem from="1527271936067" duration="1272000" />
+      <workItem from="1527271936067" duration="1550000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6175000" />
+    <option name="totallyTimeSpent" value="6453000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
