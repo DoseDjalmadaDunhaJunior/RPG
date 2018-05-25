@@ -2,37 +2,64 @@ package com.company;
 
 public class Atributo {
     //para iniciar tudo zerado
-    public Atributo(){
-        nome = null;
-        valor = 0;
-        numeros = 0;
+   
+
+public Atributo() {
+        classe = null;
+        maxhp=0;
+        meleedmg=0;
+        hp=0;
+        xp=0;
+        level=0;
+   
     }
-    // para dar um texto ao nome
-    public void setNome(String txt){
-        nome = txt;
-    }
-    // para dar um valor ao valor que é float
-    public void setValor(float val){
-        valor = val;
-    }
-    // para dar um valor ao numeros que é int
-    public void setNumeros(int val){
-        numeros = val;
-    }
-    //retorna o nome do atributo
-    public String getNome(){
-        return nome;
-    }
-    //retorna o valor float
-    public float getValor(){
-        return valor;
-    }
-    //retorna o valor int
-    public int getNumeros(){
-        return numeros;
+     public void setClasse(String classe) {
+        this.classe = classe;
     }
 
-    private String nome;
-    private float valor;
-    private int numeros;
+    public String getClasse() {
+        return classe;
+    }
+    public void setMaxhp(int maxhp) {
+        this.maxhp=maxhp;
+    }
+
+    public int getMaxhp() {
+        return maxhp;
+    }
+    public void setMeleedmg(int meleedmg) {
+        this.meleedmg=meleedmg;
+    }
+
+    public int getMeleedmg() {
+        return meleedmg;
+    }
+    public void setHp(int hp) {
+        this.hp=hp;
+    }
+
+    public int getHp() {
+        return hp;
+    }
+    public void setXp(int xp) {
+        this.xp=xp;
+    }
+
+    public int getXp() {
+        return xp;
+    }
+    public void setLevel(int level) {
+        this.level=level;
+    }
+
+    public int getLevel() {
+        return level;
+    }
+
+    private String classe;
+    private  int maxhp;
+    private  int meleedmg;
+    private  int level;
+    private  int hp;
+    private  int xp;
 }
