@@ -2,8 +2,11 @@
   <library name="Arquivo Comprimido">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/Arquivo Comprimido.zip!/" />
+      <root url="file://$PROJECT_DIR$" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/src" />
+    </SOURCES>
   </library>
 </component>

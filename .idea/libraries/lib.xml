@@ -1,17 +1,17 @@
 <component name="libraryTable">
   <library name="lib">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/jsse.jar!/" />
       <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/management-agent.jar!/" />
-      <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/jce.jar!/" />
-      <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/jfr.jar!/" />
-      <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/jfxswt.jar!/" />
-      <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/deploy.jar!/" />
-      <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/plugin.jar!/" />
-      <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/resources.jar!/" />
-      <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/javaws.jar!/" />
       <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/charsets.jar!/" />
       <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/rt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/javaws.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/jfr.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/jsse.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/deploy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/jce.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/plugin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/jfxswt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/resources.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
