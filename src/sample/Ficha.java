@@ -45,6 +45,17 @@ public class Ficha {
         this.XP = XP;
     }
 
+<<<<<<< HEAD
+=======
+    public boolean getMorto() {
+        return Morto;
+    }
+
+    public void setMorto(boolean morto) {
+        Morto = morto;
+    }
+
+>>>>>>> master
     public void setInt(int Int) {
         this.Int = Int;
     }
@@ -58,5 +69,9 @@ public class Ficha {
     private int mana;
     private int XP;
     private int Int;
+<<<<<<< HEAD
+=======
+    private boolean Morto = false;
+>>>>>>> master
 
 }

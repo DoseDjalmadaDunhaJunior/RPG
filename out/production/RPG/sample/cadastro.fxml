@@ -47,7 +47,11 @@
             <Image url="@Icons/mana.png" />
          </image>
       </ImageView>
+<<<<<<< HEAD
       <JFXTextField fx:id="txtMana" focusColor="#6b5b95" layoutX="194.0" layoutY="169.0" prefHeight="28.0" prefWidth="264.0" promptText="HP(Vida)" unFocusColor="#cccccc" />
+=======
+      <JFXTextField fx:id="txtMana" focusColor="#6b5b95" layoutX="194.0" layoutY="169.0" prefHeight="28.0" prefWidth="264.0" promptText="HP (Vida)" unFocusColor="#cccccc" />
+>>>>>>> master
       <ImageView fitHeight="35.0" fitWidth="35.0" layoutX="142.0" layoutY="222.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Icons/nome.png" />

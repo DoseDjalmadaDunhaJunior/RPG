@@ -30,6 +30,7 @@ public class ControllerJogadores implements Initializable {//isto aqui e pra ent
 
     public void initialize(URL url, ResourceBundle rb) { //initialize inicia a tela assim q abre, precsa sempre destes argumentos
         int i = 0;
+<<<<<<< HEAD
 
         paneFicha1.setVisible(true);
         lblNomeJogador1.setText(fichas.get(i).getNome());
@@ -38,12 +39,25 @@ public class ControllerJogadores implements Initializable {//isto aqui e pra ent
         lblXPJogador1.setText(Integer.toString(fichas.get(i).getXP()));
         lblIntJogador1.setText(Integer.toString(fichas.get(i).getInt()));
         i++;
+=======
+        if(i == 0) {
+            paneFicha1.setVisible(true);
+            lblNomeJogador1.setText(fichas.get(i).getNome());
+            lblClasseJogador1.setText(fichas.get(i).getClasse());
+            if(fichas.get(i).getMorto() == false) lblManaJogador1.setText(Integer.toString(fichas.get(i).getMana()));
+            else lblManaJogador1.setText("Morreu");
+            lblXPJogador1.setText(Integer.toString(fichas.get(i).getXP()));
+            lblIntJogador1.setText(Integer.toString(fichas.get(i).getInt()));
+            i++;
+        }
+>>>>>>> master
 
         if(i < fichas.size()){
             paneFicha2.setVisible(true);
             lblNomeJogador2.setText(fichas.get(i).getNome());
             lblClasseJogador2.setText(fichas.get(i).getClasse());
-            lblManaJogador2.setText(Integer.toString(fichas.get(i).getMana()));
+            if(fichas.get(i).getMorto() == false) lblManaJogador2.setText(Integer.toString(fichas.get(i).getMana()));
+            else lblManaJogador2.setText("Morreu");
             lblXPJogador2.setText(Integer.toString(fichas.get(i).getXP()));
             lblIntJogador2.setText(Integer.toString(fichas.get(i).getInt()));
             i++;
@@ -53,7 +67,8 @@ public class ControllerJogadores implements Initializable {//isto aqui e pra ent
             paneFicha3.setVisible(true);
             lblNomeJogador3.setText(fichas.get(i).getNome());
             lblClasseJogador3.setText(fichas.get(i).getClasse());
-            lblManaJogador3.setText(Integer.toString(fichas.get(i).getMana()));
+            if(fichas.get(i).getMorto() == false) lblManaJogador3.setText(Integer.toString(fichas.get(i).getMana()));
+            else lblManaJogador3.setText("Morreu");
             lblXPJogador3.setText(Integer.toString(fichas.get(i).getXP()));
             lblIntJogador3.setText(Integer.toString(fichas.get(i).getInt()));
             i++;
@@ -63,7 +78,8 @@ public class ControllerJogadores implements Initializable {//isto aqui e pra ent
             paneFicha4.setVisible(true);
             lblNomeJogador4.setText(fichas.get(i).getNome());
             lblClasseJogador4.setText(fichas.get(i).getClasse());
-            lblManaJogador4.setText(Integer.toString(fichas.get(i).getMana()));
+            if(fichas.get(i).getMorto() == false) lblManaJogador4.setText(Integer.toString(fichas.get(i).getMana()));
+            else lblManaJogador4.setText("Morreu");
             lblXPJogador4.setText(Integer.toString(fichas.get(i).getXP()));
             lblIntJogador4.setText(Integer.toString(fichas.get(i).getInt()));
             i++;
@@ -73,7 +89,8 @@ public class ControllerJogadores implements Initializable {//isto aqui e pra ent
             paneFicha5.setVisible(true);
             lblNomeJogador5.setText(fichas.get(i).getNome());
             lblClasseJogador5.setText(fichas.get(i).getClasse());
-            lblManaJogador5.setText(Integer.toString(fichas.get(i).getMana()));
+            if(fichas.get(i).getMorto() == false) lblManaJogador5.setText(Integer.toString(fichas.get(i).getMana()));
+            else lblManaJogador5.setText("Morreu");
             lblXPJogador5.setText(Integer.toString(fichas.get(i).getXP()));
             lblIntJogador5.setText(Integer.toString(fichas.get(i).getInt()));
             i++;
@@ -83,7 +100,8 @@ public class ControllerJogadores implements Initializable {//isto aqui e pra ent
             paneFicha6.setVisible(true);
             lblNomeJogador6.setText(fichas.get(i).getNome());
             lblClasseJogador6.setText(fichas.get(i).getClasse());
-            lblManaJogador6.setText(Integer.toString(fichas.get(i).getMana()));
+            if(fichas.get(i).getMorto() == false) lblManaJogador6.setText(Integer.toString(fichas.get(i).getMana()));
+            else lblManaJogador6.setText("Morreu");
             lblXPJogador6.setText(Integer.toString(fichas.get(i).getXP()));
             lblIntJogador6.setText(Integer.toString(fichas.get(i).getInt()));
             i++;

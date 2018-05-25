@@ -23,7 +23,11 @@
             </Label>
          </children>
       </AnchorPane>
+<<<<<<< HEAD
       <AnchorPane fx:id="paneFicha1" layoutX="14.0" layoutY="83.0" prefHeight="200.0" prefWidth="167.0" style="-fx-background-color: #6B5B95;">
+=======
+      <AnchorPane fx:id="paneFicha1" layoutX="14.0" layoutY="83.0" prefHeight="200.0" prefWidth="167.0" style="-fx-background-color: #6B5B95;" visible="false">
+>>>>>>> master
          <children>
             <Label fx:id="lblNomeJogador1" layoutX="51.0" layoutY="86.0" textFill="WHITE">
                <font>
@@ -35,7 +39,11 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
+<<<<<<< HEAD
             <Label fx:id="lblManaJogador1" layoutX="61.0" layoutY="55.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+=======
+            <Label fx:id="lblManaJogador1" alignment="CENTER" layoutX="60.0" layoutY="57.0" prefHeight="18.0" prefWidth="47.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+>>>>>>> master
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
@@ -60,7 +68,11 @@
                   <Image url="@Icons/espada-branco.png" />
                </image>
             </ImageView>
+<<<<<<< HEAD
             <ImageView fx:id="imgMana1" fitHeight="20.0" fitWidth="20.0" layoutX="75.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" scaleX="1.9" scaleY="1.9" AnchorPane.topAnchor="20.0">
+=======
+            <ImageView fx:id="imgMana1" fitHeight="20.0" fitWidth="20.0" layoutX="74.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" scaleX="1.9" scaleY="1.9" AnchorPane.topAnchor="23.0">
+>>>>>>> master
                <image>
                   <Image url="@Icons/mana-banco.png" />
                </image>
@@ -88,7 +100,11 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
+<<<<<<< HEAD
             <Label fx:id="lblManaJogador2" layoutX="61.0" layoutY="55.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+=======
+            <Label fx:id="lblManaJogador2" alignment="CENTER" layoutX="66.0" layoutY="54.0" prefWidth="38.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+>>>>>>> master
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
@@ -142,7 +158,11 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
+<<<<<<< HEAD
             <Label fx:id="lblManaJogador3" layoutX="61.0" layoutY="55.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+=======
+            <Label fx:id="lblManaJogador3" alignment="CENTER" layoutX="66.0" layoutY="54.0" prefHeight="20.0" prefWidth="38.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+>>>>>>> master
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
@@ -196,7 +216,11 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
+<<<<<<< HEAD
             <Label fx:id="lblManaJogador4" layoutX="61.0" layoutY="55.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+=======
+            <Label fx:id="lblManaJogador4" alignment="CENTER" layoutX="66.0" layoutY="54.0" prefHeight="18.0" prefWidth="35.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+>>>>>>> master
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
@@ -250,7 +274,11 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
+<<<<<<< HEAD
             <Label fx:id="lblManaJogador5" layoutX="61.0" layoutY="55.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+=======
+            <Label fx:id="lblManaJogador5" alignment="CENTER" layoutX="68.0" layoutY="54.0" prefHeight="18.0" prefWidth="35.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+>>>>>>> master
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
@@ -304,7 +332,11 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
+<<<<<<< HEAD
             <Label fx:id="lblManaJogador6" layoutX="61.0" layoutY="55.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+=======
+            <Label fx:id="lblManaJogador6" alignment="CENTER" layoutX="68.0" layoutY="54.0" prefHeight="18.0" prefWidth="35.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+>>>>>>> master
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>

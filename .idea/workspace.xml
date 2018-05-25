@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="67bf1083-6cb1-477d-8868-74c1721d58ad" name="Default" comment="" />
+=======
+    <list default="true" id="eb3aec55-5637-4aca-adc8-24f61d32c3df" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPG/sample/ControllerAtaque.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPG/sample/ControllerAtaque.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPG/sample/ControllerJogadores.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPG/sample/ControllerJogadores.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RPG/sample/Ficha.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPG/sample/Ficha.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/ControllerAtaque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ControllerAtaque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/ControllerJogadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ControllerJogadores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/Ficha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Ficha.java" afterDir="false" />
+    </list>
+>>>>>>> master
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -10,6 +22,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="ControllerAtaque.java" pinned="false" current-in-tab="false">
@@ -21,10 +34,23 @@
                 <element signature="imports" expanded="true" />
                 <element signature="e#729#737#0" expanded="true" />
               </folding>
+=======
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/RPG$Unnamed.ic" NAME="Unnamed Coverage Results" MODIFIED="1527269532657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ControllerCadastro.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ControllerCadastro.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="55" column="144" selection-start-line="55" selection-start-column="107" selection-end-line="55" selection-end-column="144" />
+>>>>>>> master
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="jogadores.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/jogadores.fxml">
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
@@ -45,11 +71,26 @@
                 <element signature="e#810#811#0" expanded="true" />
                 <element signature="e#837#838#0" expanded="true" />
                 <element signature="e#863#864#0" expanded="true" />
+=======
+      <file leaf-file-name="Ficha.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Ficha.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+              <folding>
+                <element signature="e#750#751#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+>>>>>>> master
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="ControllerD20.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/ControllerD20.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,12 +129,47 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+=======
+      <file leaf-file-name="ControllerJogadores.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/ControllerJogadores.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="94" column="48" selection-start-line="94" selection-start-column="48" selection-end-line="94" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="jogadores.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/jogadores.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ataque.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ataque.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ControllerAtaque.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/ControllerAtaque.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="62" column="76" lean-forward="true" selection-start-line="62" selection-start-column="76" selection-end-line="62" selection-end-column="76" />
+>>>>>>> master
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="d20.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/d20.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -101,12 +177,15 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> master
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/sample/ControllerSample.java" />
         <option value="$PROJECT_DIR$/src/sample/Teste.fxml" />
         <option value="$PROJECT_DIR$/src/sample/ControllerD20.java" />
@@ -116,6 +195,14 @@
         <option value="$PROJECT_DIR$/src/sample/ControllerJogadores.java" />
         <option value="$PROJECT_DIR$/src/sample/cadastro.fxml" />
         <option value="$PROJECT_DIR$/src/sample/Ficha.java" />
+=======
+        <option value="$PROJECT_DIR$/src/sample/cadastro.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/ataque.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/jogadores.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Ficha.java" />
+        <option value="$PROJECT_DIR$/src/sample/ControllerAtaque.java" />
+        <option value="$PROJECT_DIR$/src/sample/ControllerJogadores.java" />
+>>>>>>> master
       </list>
     </option>
   </component>
@@ -124,10 +211,22 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+<<<<<<< HEAD
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="673" />
     <option name="height" value="723" />
+=======
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="143" />
+    <option name="y" value="62" />
+    <option name="width" value="1191" />
+    <option name="height" value="645" />
+>>>>>>> master
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -154,22 +253,42 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="RPG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+>>>>>>> master
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+>>>>>>> master
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.JavaFX" />
+=======
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jfoenix-8.0.1.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+>>>>>>> master
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,7 +303,11 @@
     </option>
   </component>
   <component name="RunManager">
+<<<<<<< HEAD
     <configuration name="Main&lt;3" type="Application" factoryName="Application">
+=======
+    <configuration name="Unnamed" type="Application" factoryName="Application">
+>>>>>>> master
       <option name="MAIN_CLASS_NAME" value="sample.Main" />
       <module name="RPG" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -236,6 +359,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="67bf1083-6cb1-477d-8868-74c1721d58ad" name="Default" comment="" />
       <created>1526501361267</created>
       <option name="number" value="Default" />
@@ -250,11 +374,26 @@
       <workItem from="1527196286993" duration="2889000" />
       <workItem from="1527261553523" duration="3913000" />
       <workItem from="1527265918964" duration="3881000" />
+=======
+      <changelist id="eb3aec55-5637-4aca-adc8-24f61d32c3df" name="Default" comment="" />
+      <created>1527264651038</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527264651038</updated>
+      <workItem from="1527264653855" duration="4098000" />
+      <workItem from="1527271046682" duration="805000" />
+      <workItem from="1527271936067" duration="1550000" />
+      <workItem from="1527273903561" duration="2837000" />
+>>>>>>> master
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="24241000" />
+=======
+    <option name="totallyTimeSpent" value="9290000" />
+>>>>>>> master
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="725" extended-state="6" />
@@ -262,6 +401,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32998326" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
@@ -277,15 +417,41 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18409091" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="2" />
+=======
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22613065" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2159091" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Learn" />
+>>>>>>> master
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+<<<<<<< HEAD
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+=======
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30316743" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.329429" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+>>>>>>> master
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -297,6 +463,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/sample/ControllerAtaque.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -344,10 +511,37 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#729#737#0" expanded="true" />
+=======
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sample/ControllerCadastro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="55" column="144" selection-start-line="55" selection-start-column="107" selection-end-line="55" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Ficha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/sample/ControllerD20.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
@@ -366,11 +560,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/sample/ControllerJogadores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+>>>>>>> master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ControllerAtaque.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="360">
           <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="52" />
           <folding>
@@ -384,18 +585,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="76" column="12" lean-forward="true" selection-start-line="76" selection-start-column="12" selection-end-line="76" selection-end-column="12" />
+=======
+        <state relative-caret-position="795">
+          <caret line="68" column="9" lean-forward="true" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+>>>>>>> master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/ControllerJogadores.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2100">
           <caret line="140" lean-forward="true" selection-start-line="140" selection-end-line="140" />
+=======
+        <state relative-caret-position="1965">
+          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+>>>>>>> master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Ficha.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="240">
           <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
         </state>
@@ -408,10 +619,22 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#729#737#0" expanded="true" />
+=======
+        <state relative-caret-position="660">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/sample/ControllerCadastro.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1710">
@@ -507,11 +730,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/sample/ControllerAtaque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="75" column="44" lean-forward="true" selection-start-line="75" selection-start-column="44" selection-end-line="75" selection-end-column="44" />
+>>>>>>> master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="90">
           <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
         </state>
@@ -546,10 +776,52 @@
             <element signature="imports" expanded="true" />
             <element signature="e#1022#1023#0" expanded="true" />
             <element signature="e#1050#1051#0" expanded="true" />
+=======
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_162/javafx-src.zip!/javafx/scene/control/ButtonBase.java" />
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_162/javafx-src.zip!/com/sun/javafx/scene/control/behavior/ButtonBehavior.java" />
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_162/javafx-src.zip!/javafx/scene/control/Button.java" />
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_162/javafx-src.zip!/javafx/scene/Node.java" />
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_162/javafx-src.zip!/javafx/event/Event.java" />
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_162/javafx-src.zip!/javafx/beans/property/BooleanPropertyBase.java" />
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_162/javafx-src.zip!/javafx/stage/Window.java" />
+    <entry file="jar://$USER_HOME$/Downloads/jdk1.8.0_162/javafx-src.zip!/javafx/fxml/FXMLLoader.java" />
+    <entry file="file://$PROJECT_DIR$/src/sample/dado.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ControllerCadastro.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="55" column="144" selection-start-line="55" selection-start-column="107" selection-end-line="55" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/d20.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Ficha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding>
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#910#911#0" expanded="true" />
+>>>>>>> master
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/sample/ControllerAtaque.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -558,6 +830,16 @@
             <element signature="imports" expanded="true" />
             <element signature="e#729#737#0" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/src/sample/ataque.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/ControllerAtaque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="62" column="76" lean-forward="true" selection-start-line="62" selection-start-column="76" selection-end-line="62" selection-end-column="76" />
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -565,6 +847,7 @@
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/sample/cadastro.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
       <provider editor-type-id="text-editor" />
@@ -604,6 +887,12 @@
             <element signature="e#837#838#0" expanded="true" />
             <element signature="e#863#864#0" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/src/sample/ControllerJogadores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="94" column="48" selection-start-line="94" selection-start-column="48" selection-end-line="94" selection-end-column="48" />
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -636,7 +925,10 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+<<<<<<< HEAD
           <last-edited>jfoenix-8.0.1</last-edited>
+=======
+>>>>>>> master
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -665,6 +957,10 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+<<<<<<< HEAD
+=======
+                <option value="0.6" />
+>>>>>>> master
               </list>
             </option>
           </splitter-proportions>
@@ -684,6 +980,10 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+<<<<<<< HEAD
+=======
+          <last-edited>jfoenix-8.0.1</last-edited>
+>>>>>>> master
           <splitter-proportions>
             <option name="proportions">
               <list>

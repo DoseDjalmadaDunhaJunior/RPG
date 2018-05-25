@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="unlimited">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/security/policy/unlimited/US_export_policy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/out/artifacts/Tentativa_1/bundles/Tentativa1/runtime/lib/security/policy/unlimited/local_policy.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
