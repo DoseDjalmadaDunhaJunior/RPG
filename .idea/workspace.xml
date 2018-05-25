@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67bf1083-6cb1-477d-8868-74c1721d58ad" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPG/sample/ControllerD20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPG/sample/ControllerD20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPG/sample/ControllerJogadores.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPG/sample/ControllerJogadores.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPG/sample/cadastro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPG/sample/cadastro.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RPG/sample/jogadores.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RPG/sample/jogadores.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/ControllerCadastro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ControllerCadastro.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/ControllerD20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ControllerD20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/ControllerJogadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/ControllerJogadores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Ficha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Ficha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/cadastro.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/cadastro.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/jogadores.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/jogadores.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="67bf1083-6cb1-477d-8868-74c1721d58ad" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,7 +34,7 @@
       <file leaf-file-name="Ficha.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/Ficha.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="-310">
               <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
                 <element signature="e#602#603#0" expanded="true" />
@@ -261,12 +249,12 @@
       <workItem from="1527113787531" duration="1663000" />
       <workItem from="1527196286993" duration="2889000" />
       <workItem from="1527261553523" duration="3913000" />
-      <workItem from="1527265918964" duration="3281000" />
+      <workItem from="1527265918964" duration="3881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23641000" />
+    <option name="totallyTimeSpent" value="24241000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="725" extended-state="6" />
@@ -282,7 +270,7 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32998326" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32998326" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -604,7 +592,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Ficha.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="-310">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="e#602#603#0" expanded="true" />
