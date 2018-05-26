@@ -35,7 +35,11 @@
                   <Font name="System Bold" size="13.0" />
                </font>
             </Label>
+<<<<<<< HEAD
             <Label fx:id="lblManaJogador1" alignment="CENTER" layoutX="43.0" layoutY="57.0" prefHeight="18.0" prefWidth="81.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+=======
+            <Label fx:id="lblManaJogador1" alignment="CENTER" layoutX="60.0" layoutY="57.0" prefHeight="18.0" prefWidth="47.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+>>>>>>> cb28f882471a7cb274e300a51e9a6f8de047b613
 
                <font>
                   <Font name="System Bold" size="13.0" />
@@ -91,7 +95,11 @@
                </font>
             </Label>
 
+<<<<<<< HEAD
             <Label fx:id="lblManaJogador2" alignment="CENTER" layoutX="49.0" layoutY="54.0" prefHeight="18.0" prefWidth="73.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+=======
+            <Label fx:id="lblManaJogador2" alignment="CENTER" layoutX="66.0" layoutY="54.0" prefWidth="38.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+>>>>>>> cb28f882471a7cb274e300a51e9a6f8de047b613
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
@@ -146,7 +154,11 @@
                </font>
             </Label>
 
+<<<<<<< HEAD
             <Label fx:id="lblManaJogador3" alignment="CENTER" layoutX="45.0" layoutY="54.0" prefHeight="20.0" prefWidth="81.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+=======
+            <Label fx:id="lblManaJogador3" alignment="CENTER" layoutX="66.0" layoutY="54.0" prefHeight="20.0" prefWidth="38.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+>>>>>>> cb28f882471a7cb274e300a51e9a6f8de047b613
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
@@ -201,7 +213,11 @@
                </font>
             </Label>
 
+<<<<<<< HEAD
             <Label fx:id="lblManaJogador4" alignment="CENTER" layoutX="43.0" layoutY="54.0" prefHeight="18.0" prefWidth="82.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+=======
+            <Label fx:id="lblManaJogador4" alignment="CENTER" layoutX="66.0" layoutY="54.0" prefHeight="18.0" prefWidth="35.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+>>>>>>> cb28f882471a7cb274e300a51e9a6f8de047b613
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
@@ -256,7 +272,11 @@
                </font>
             </Label>
 
+<<<<<<< HEAD
             <Label fx:id="lblManaJogador5" alignment="CENTER" layoutX="44.0" layoutY="54.0" prefHeight="20.0" prefWidth="80.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+=======
+            <Label fx:id="lblManaJogador5" alignment="CENTER" layoutX="68.0" layoutY="54.0" prefHeight="18.0" prefWidth="35.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+>>>>>>> cb28f882471a7cb274e300a51e9a6f8de047b613
                <font>
                   <Font name="System Bold" size="13.0" />
                </font>
@@ -311,7 +331,11 @@
                </font>
             </Label>
 
+<<<<<<< HEAD
             <Label fx:id="lblManaJogador6" alignment="CENTER" layoutX="45.0" layoutY="54.0" prefHeight="18.0" prefWidth="80.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+=======
+            <Label fx:id="lblManaJogador6" alignment="CENTER" layoutX="68.0" layoutY="54.0" prefHeight="18.0" prefWidth="35.0" scaleX="1.5" scaleY="1.5" textFill="WHITE">
+>>>>>>> cb28f882471a7cb274e300a51e9a6f8de047b613
 
                <font>
                   <Font name="System Bold" size="13.0" />
