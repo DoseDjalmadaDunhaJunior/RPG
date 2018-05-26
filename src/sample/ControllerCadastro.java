@@ -20,6 +20,7 @@ import java.util.ArrayList;
 // SE VOCÊ ABRIU ESSE ARQUIVO PRIMEIRO, LEIA O CONTROLLERSAMPLE PRIMEIRO PARA CONSEGUIR ENTENDER ESSE
 // SE VOCÊ ABRIU ESSE ARQUIVO PRIMEIRO, LEIA O CONTROLLERSAMPLE PRIMEIRO PARA CONSEGUIR ENTENDER ESSE
 
+
 public class ControllerCadastro {
     // Aqui, instancio a classe Ficha, é momentâneo, fiz para testes
     Ficha f = new Ficha();

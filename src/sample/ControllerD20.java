@@ -43,7 +43,7 @@ public class ControllerD20 implements Initializable {
             lblResultado.setText("ACERTOU");
         }
 
-        if(valor > 19 && valor <= 20){
+        if(valor >= 19 && valor <= 20){
             lblResultado.setText("ACERTO CRÍTICO");
         }
 

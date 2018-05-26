@@ -41,7 +41,7 @@
             <Image url="@Icons/dado.png" />
          </image>
       </ImageView>
-      <Label fx:id="lblVerifica" layoutX="234.0" layoutY="432.0" text="APENAS ENTRE 1 E 6" textFill="#6b5b95" visible="false">
+      <Label fx:id="lblVerifica" layoutX="234.0" layoutY="483.0" text="APENAS ENTRE 1 E 6" textFill="#6b5b95" visible="false">
          <font>
             <Font name="System Bold" size="13.0" />
          </font>

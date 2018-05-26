@@ -67,6 +67,7 @@ public class ControllerDado implements Initializable {
             txtDado.setVisible(false);
             imgDado.setDisable(true);
             imgDado.setVisible(false);
+            lblVerifica.setVisible(false);
 
             combo.setDisable(false);
             combo.setVisible(true);
@@ -82,16 +83,18 @@ public class ControllerDado implements Initializable {
     public void geraDano(ActionEvent event) throws Exception{
         Random r = new Random();
 
+        String x = combo.getValue();
+        int xy = Integer.parseInt(x);
         dano = 0;
         for(int i = 0; i < qtdDados; i++){
-            dado = dado + r.nextInt((Integer.parseInt(combo.getValue())) + 1);
+            dado = dado + r.nextInt((xy + 1));
             System.out.println(dado);
         }
 
-        dano = dado * qtdDados;
-        System.out.println(dano);
 
-        a.recebeDano(dano);
+        //System.out.println(dado);
+
+        a.recebeDano(dado);
 
         AnchorPane pane = FXMLLoader.load(getClass().getResource("ataque.fxml"));
         rootPane.getChildren().setAll(pane);
@@ -99,7 +102,7 @@ public class ControllerDado implements Initializable {
 
 
 
-    public int dado = 0;
+    public static int dado = 0;
     public static int dano;
     public static int qtdDados;
     public JFXTextField txtDado = new JFXTextField();
